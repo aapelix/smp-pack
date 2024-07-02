@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "minecraft:block/carved_pumpkin",
+    "side": "minecraft:block/pumpkin_side",
+    "top": "minecraft:block/pumpkin_top"
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data": 1}, "model": "item/big_hat"}
+  ]
+}
